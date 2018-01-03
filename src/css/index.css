@@ -1,0 +1,129 @@
+/* 
+* @Author: Marte
+* @Date:   2018-01-02 09:48:23
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-03 18:06:44
+*/
+.search{
+    height: 106px;
+   /* background:pink;*/
+     position:relative;
+}
+.search .search_z{
+    width: 591px;
+    height: 106px;
+    /*background:green;*/
+    float: left;
+    margin-left:71px;
+}
+.in{
+    width: 497px;
+    height: 37px;
+    border:1px solid #FF6655;
+    margin-top:42px;
+    color:#957DB7;
+}
+.p1{
+    font-size:12px;
+    color:#666666;
+}
+.soushuo{
+    width: 92px;
+    height: 37px;
+    background:#FF6655;
+    font-size:18px;
+    position:absolute;
+    top:43px;
+    left:871px;
+}
+.xx{
+    margin-top:27px;
+    margin-left:62px;
+
+}
+.nav{
+    width:100%;
+    background:#FF6655;
+     position:relative;
+}
+.nav .container{
+    height: 44px;
+    background:#FF6655; 
+}
+/*.nav .na_l ul{
+    margin-left:154px;
+}*/
+.nav .na_l ul li{
+    float: left;
+    padding-left:27px;
+}
+.nav .na_l ul li a{
+    font-size:19px;
+    line-height:35px;
+    display:block;
+    color:#FFFFE4;
+    text-align:center;
+    height: 44px;
+    padding:0 10px;
+}
+.nav .na_l ul li a span{
+        height: 44px;
+
+}
+.nav h2 {
+    line-height:35px;
+    width: 188px;
+    height:44px;
+    float: left;
+    color:#F2E0CC;
+    background:#CC2200;
+    line-height:44px;
+    padding-left:10px;
+    position:relative;
+
+    
+}
+.nav .na_l i{
+    position:absolute;
+    top:11px;
+    left:278px;
+}
+.nav .na_l ul li a:hover{
+    background-color:#9B0000;
+}
+.nav_z{
+    width: 198px;
+    height: 488px;
+    /*background:pink;*/
+    position:absolute;
+    top:44px;
+    left:108px;
+    border:1px solid #CE2100;
+}
+.nav .nav_1{
+    width:198px;
+    height: 110px;
+    border-bottom:1px solid #ccc;
+}
+.nav .nav_2{
+    width:198px;
+    height: 111px;
+    border-bottom:1px solid #ccc;
+}
+.nav .nav_3{
+    width:198px;
+    height: 67px;
+    border-bottom:1px solid #ccc;
+}
+.nav .nav_4{
+    width:198px;
+    height:89px;
+    border-bottom:1px solid #ccc;
+}
+.nav .nav_5{
+    width:198px;
+    height:71px;
+}
+.nav .na_l ul h2 .nav_z .nav_1 h1{
+        color:#979E97;
+}

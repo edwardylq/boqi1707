@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>用户注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/reg.css" />
+    <link rel="stylesheet" type="text/css" href="../css/font/iconfont.css" />
+</head>
+    <body>  
+        <header>
+            <div class="w clearfix">
+                <ul class='z_u1 fl'>
+                    <li><a href="#">波奇网</a></li>
+                    <li><a href="#">波奇商城</a></li>
+                    <li><a href="#">波奇服务</a></li>
+                    <li><a href="#">波奇论坛</a></li>
+                    <li><a href="#">宠物百科</a></li>
+                </ul>
+                <ul  class='z_u2 z_u1 fr'>
+                    <li><a href="login.html"><span>登录</span></a></li>
+                    <li><a href="reg.html"><span>注册</span></a></li>
+                    <li>
+                        <a href="#"><span>微博</span></a>
+                        <div class='z_wb'></div>
+                    </li>
+                    <li>
+                        <a href="#"><span>微信</span></a>
+                        <div class='z_wb'></div>
+                    </li>
+                    <li><a href="#"><span>手机版</span></a></li>
+                </ul>
+            </div></header>
+        <main>
+            <div class="yonghu">
+                <div class="w clearfix">
+                    <h1><a href="../index.html"><span>波奇商城</span></a></h1>
+                    <h2><span>用户注册</span></h2>
+                    <p>已有波奇账号,<a href="login.html">直接登录</a></p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="w clearfix">
+                    <div class="regl fl">
+                        <ul>
+                            <li>
+                               <span class='z_tab'>
+                                 <i class='iconfont icon-app'></i>手机注册
+                               </span>
+                               <div class='jiao jiao1'></div>
+                               <div class='jiao jiao2'></div>
+                            </li>
+                            <li>
+                                 <span class='z_tab'>
+                                     <i class='iconfont icon-youxiang'></i>邮箱注册
+                                </span>
+                            </li>
+                        </ul>
+                          <div class="z_sj clearfix">
+                            <label for="phoneNum"><i class='biao'></i>手机号码:</label><input type="text" id='phoneNum' placeholder="请输入手机号码"/><span class='z_tip'>请输入正确的手机号码！</span><br />
+                            <label for="z_email" class='z_ema'><i class='biao'></i>邮箱:</label><input type="text" id='z_email' class='z_ema' placeholder="请输入您的电子邮箱地址"/><span class='z_tip z_you'>请输入正确的电子邮箱地址！</span><br  class='z_ema'/>
+                            <label for="z_passWord"><i class='biao'></i>设置密码:</label><input type="text" id='z_passWord' placeholder="6-20大小写英文字母、数字或符号"/><span class='z_tip'>请输入正确的密码格式！</span><br />
+                            <label for="okWord"><i class='biao'></i>确认密码:</label><input type="text" id='okWord' placeholder="请再次确认密码"/><span class='z_tip'>请输入正确的密码格式！</span><br />
+                            <label for="z_nickName"> <i class='biao'></i>昵称:</label><input type="text" id='z_nickName' placeholder="请输入昵称,已存在用户名:老谢、老王"/><span class='z_tip'>只能输入中文,用户昵称不能小于2位！</span><br />
+                            <label for="z_vCode"><i class='biao biaoge'></i><div class="yzm"></div>验证码:</label><input type="text" id='z_vCode'/><i class='z_error'></i><br />
+                            <label for="z_dxCode">短信验证码: <div class="z_dxh">获取短信验证码</div></label><input type="text" id='z_dxCode'/>
+                            <br />
+                            <input type="checkbox" id='z_xieyi'/><label for="z_xieyi" class='z_xyl'> 我已阅读并同意</label><a>《波奇网服务协议》</a><br />
+                            <input type="submit"  value='注册' id='z_reg'/>
+                           </div>
+                    </div>
+                    <div class="regr fl"><a href="../index.html"></a></div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

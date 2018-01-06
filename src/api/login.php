@@ -10,15 +10,15 @@
     $userName = isset($_GET['userName']) ? $_GET['userName'] : null;
     $passWord = isset($_GET['passWord']) ? $_GET['passWord'] : null;
 
-    // md5加密
-    $password = md5($password);
+    // // md5加密
+    // $passWord = md5($passWord);
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
     //验证内容是否与数据库的记录吻合。这个 AND 查询已经确认全匹配
-    $sql = "SELECT * FROM user WHERE (username='$userName')";
+    $sql = "SELECT * FROM username WHERE (userName='$userName')";
 
     //执行上面的sql语句并将结果集赋给result。
     $result = $conn->query($sql);
@@ -30,7 +30,7 @@
         // 返回数组
         $row = $result->fetch_row();
 
-        if($row[1] == $passWord ){
+        if($row[0]){
             echo "登录成功";
         }else{
              echo "用户名或密码有误";

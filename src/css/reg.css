@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 header .w {
   width: 992px;
   height: 36px;
@@ -308,7 +308,7 @@ main .content .w .regl .z_sj .z_dxh {
   width: 110px;
   height: 40px;
   position: absolute;
-  left: 282px;
+  left: 281px;
   top: -4px;
   border: 1px solid #ccc;
   background: -webkit-gradient(linear, 0 0, 100% 100%, from(#4DFF4D), to(skyblue));

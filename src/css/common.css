@@ -1,0 +1,578 @@
+.ht1 {
+  height: 33px;
+  border-bottom: 1px solid #ccc;
+  line-height: 32px;
+  font-size: 14px;
+  position: relative;
+  font-family: "Microsoft YaWei";
+}
+
+.ht1 span {
+  display: inline-block;
+}
+
+.ht1 span:hover {
+  cursor: pointer;
+}
+
+.ht1 span i {
+  color: #EE5533;
+}
+
+.ht1 ul {
+  float: right;
+}
+
+.ht1 ul li {
+  float: left;
+}
+
+.ht1 ul li span {
+  display: inline;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+}
+
+.ht1 ul li span i {
+  font-size: 14px;
+}
+
+.ht1 ul li span a:hover {
+  border-bottom: 1px solid #EE5533;
+}
+
+.ht1 ul li .zqsj:hover {
+  color: #EE5533;
+}
+
+.ht1 .sjb {
+  display: none;
+  width: 250px;
+  height: 138px;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
+  top: 33px;
+  left: 769px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.ht1 .sjb .sma {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url(../img/ivan.fw.png) no-repeat -485px -73px;
+}
+
+.ht1 .sjb .sjh {
+  width: 120px;
+  float: left;
+  margin-left: 10px;
+}
+
+.ht1 .sjb .sjh p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+}
+
+.ht1 .sjb .sjh p:not(.mh_pet) {
+  color: #FF6655;
+}
+
+.ht1 .sjb .sjh a {
+  width: 90px;
+  height: 27px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  line-height: 26px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.ht1 .sjb .sjh a:hover {
+  background: #ccc;
+}
+
+.ht1 .bqb {
+  display: none;
+  width: 203px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: absolute;
+  background: #fff;
+  top: 33px;
+  left: 892px;
+}
+
+.ht1 .bqb i {
+  width: 80px;
+  height: 80px;
+  display: block;
+  background: url(../img/ivan.fw.png) no-repeat -270px -206px;
+}
+
+.ht1 .bqb p {
+  height: 21px;
+  line-height: 32px;
+}
+
+.ht1 .bqb .huang {
+  color: #EE5533;
+}
+
+.ht1 .bqb .bqb_l {
+  width: 101px;
+  height: 150px;
+  border-right: 1px dotted #ccc;
+}
+
+.ht1 .bqb .bq {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.ht1 .bqb .bqb_r span {
+  color: #26C9FF;
+  font-weight: bold;
+}
+
+.ht1 .syb {
+  display: none;
+  width: 97px;
+  height: 87px;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: absolute;
+  background: #fff;
+  top: 33px;
+  left: 1094px;
+}
+
+.ht1 .syb ul li {
+  width: 97px;
+  height: 28px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.ht1 .syb ul li i {
+  color: #EE5533;
+  margin-right: 5px;
+  margin-left: 11px;
+}
+
+.cart-list .btn-close {
+  position: absolute;
+  top: 61px;
+  right: 159px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.cart-list .btn-close:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#mh_header .gd {
+  width: 36px;
+  height: 670px;
+  background: #111318;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+}
+
+#mh_header .gd .gdul {
+  padding-top: 93px;
+  position: relative;
+}
+
+#mh_header .gd .gdul .cart-list {
+  background: #FEF2EE;
+  width: 300px;
+  border-radius: 12px;
+  border: 4px solid #333;
+  position: absolute;
+  left: -299px;
+  top: 123px;
+}
+
+#mh_header .gd .gdul .cart-list p {
+  text-align: left;
+}
+
+#mh_header .gd .gdul .cart-list .chuship {
+  padding-left: 10px;
+  line-height: 40px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  border-radius: 12px;
+}
+
+#mh_header .gd .gdul .cart-list .carul {
+  max-height: 188px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+}
+
+#mh_header .gd .gdul .cart-list .carul li {
+  height: 94px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #333 !important;
+  margin-top: 2px;
+  border-bottom: 1px dotted #ccc;
+}
+
+#mh_header .gd .gdul .cart-list .carul li .ktl {
+  width: 94px;
+  height: 70px;
+  padding: 2px;
+  float: left;
+}
+
+#mh_header .gd .gdul .cart-list .carul li .ktl img {
+  width: 60px;
+  height: 60px;
+}
+
+#mh_header .gd .gdul .cart-list .carul li .ktr {
+  width: 150px;
+  height: 70px;
+  float: left;
+  position: relative;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+#mh_header .gd .gdul .cart-list .carul li:hover {
+  background: orange;
+  color: #fff;
+}
+
+#mh_header .gd .gdul .touxiang {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(../img/ivan.fw.png) no-repeat -242px 1px;
+}
+
+#mh_header .gd .gdul li {
+  color: #9E9E9E;
+  text-align: center;
+  border-top: 1px solid #3E3E3E;
+  border-bottom: 1px solid #3E3E3E;
+  padding: 9px 2px;
+}
+
+#mh_header .gd .gdul li i {
+  color: #CF2D0D;
+  font-size: 21px;
+}
+
+#mh_header .gd .gdul li:hover {
+  cursor: pointer;
+  background: #EE5533;
+  color: #fff;
+}
+
+#mh_header .gd .gdul li:hover i {
+  color: #fff;
+}
+
+.hc {
+  height: 129px;
+}
+
+.hc h1 {
+  text-indent: -1000px;
+  margin-right: 56px;
+  background: url(../img/ivan.fw.png) no-repeat;
+  float: left;
+}
+
+.hc h1 a {
+  width: 240px;
+  height: 100px;
+  display: block;
+}
+
+.hc h1:hover {
+  cursor: pointer;
+}
+
+.hc .hcc {
+  width: 599px;
+  padding-top: 49px;
+}
+
+.hc .hcc input {
+  width: 514px;
+  height: 36px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  padding-left: 5px;
+  border: 3px solid #EE5533;
+  display: block;
+  float: left;
+  text-indent: 1em;
+  border-radius: 20px 0 0 20px;
+}
+
+.hc .hcc button {
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  font: 18px "Microsoft YaHei";
+  background: #EE5533;
+  display: block;
+  border-radius: 0 20px 20px 0;
+  float: left;
+}
+
+.hc .hcc button:hover {
+  cursor: pointer;
+}
+
+.hc .hcc ul {
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+.hc .hcc ul li {
+  float: left;
+  color: #999999;
+  margin-right: 13px;
+}
+
+.hc .hcc ul li a {
+  color: #A8A8B7;
+}
+
+.hc .hcc ul li a:hover {
+  color: #EE5533;
+}
+
+.nav {
+  padding: 0 36px;
+  height: 36px;
+  background: #EE5533;
+  line-height: 36px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+
+.nav h2 {
+  float: left;
+  width: 196px;
+  height: 36px;
+  padding-left: 10px;
+  background: #CC2200;
+  color: #fff;
+}
+
+.nav h2:hover {
+  cursor: pointer;
+}
+
+.nav h2 i {
+  display: block;
+  float: right;
+  margin-right: 6px;
+}
+
+.nav ul li {
+  float: left;
+  padding: 0 17px;
+  text-align: center;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  color: #fff;
+}
+
+.nav ul li:hover {
+  cursor: pointer;
+  background: #CC2200;
+}
+
+.nav ul li a {
+  color: #fff;
+}
+
+.nav .car {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.nav .car a {
+  width: 142px;
+  height: 36px;
+  color: #fff;
+  background: #CC2200;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 424px;
+}
+
+.footer .f1 {
+  height: 120px;
+  background: #EE5533;
+}
+
+.footer .f1 ul {
+  margin: 0 140px;
+}
+
+.footer .f1 ul li {
+  color: #fff;
+  float: left;
+  width: 196px;
+  text-align: center;
+}
+
+.footer .f1 ul li h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer .f1 ul li p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer .f1 ul li i {
+  display: block;
+  width: 57px;
+  height: 48px;
+  margin: 5px 75px 10px 75px;
+}
+
+.footer .f1 ul li:nth-child(1) i {
+  background: url(../img/ivan.fw.png) no-repeat -1px -103px;
+}
+
+.footer .f1 ul li:nth-child(2) i {
+  background: url(../img/ivan.fw.png) no-repeat -60px -103px;
+}
+
+.footer .f1 ul li:nth-child(3) i {
+  background: url(../img/ivan.fw.png) no-repeat -126px -103px;
+}
+
+.footer .f1 ul li:nth-child(4) i {
+  background: url(../img/ivan.fw.png) no-repeat -190px -103px;
+}
+
+.footer .f1 ul li:nth-child(5) i {
+  background: url(../img/ivan.fw.png) no-repeat -1px -154px;
+}
+
+.footer .f2 {
+  height: 152px;
+  background: #F3F3F3;
+}
+
+.footer .f2 ul {
+  margin-left: 214px;
+}
+
+.footer .f2 ul li {
+  float: left;
+}
+
+.footer .f2 ul li dl {
+  width: 100px;
+  margin-right: 98px;
+}
+
+.footer .f2 ul li dl dt {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.footer .f2 ul li dl dt dd {
+  margin-bottom: 6px;
+  color: #666666;
+}
+
+.footer .f3 {
+  height: 152px;
+  padding-left: 315px;
+  padding-top: 28px;
+}
+
+.footer .f3 a {
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 2px solid #ccc;
+}
+
+.footer .f3 .u1 li {
+  float: left;
+}
+
+.footer .f3 .u2 {
+  margin-left: 10px;
+}
+
+.footer .f3 .u2 li {
+  float: left;
+}
+
+.footer .f3 .u2 li a {
+  padding: 0 10px;
+}
+
+.footer .f3 p {
+  margin-left: 47px;
+}
+
+.footer .f3 .u3 {
+  margin-left: 88px;
+  margin-top: 10px;
+}
+
+.footer .f3 .u3 li {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+.footer .f3 .u3 li:nth-child(1) {
+  background: url(../img/ivan.fw.png) no-repeat -60px -153px;
+}
+
+.footer .f3 .u3 li:nth-child(2) {
+  background: url(../img/ivan.fw.png) no-repeat -161px -154px;
+}
+
+.footer .f3 .u3 li:nth-child(3) {
+  background: url(../img/ivan.fw.png) no-repeat -60px -190px;
+}
+
+.footer .f3 .u3 li:nth-child(4) {
+  background: url(../img/ivan.fw.png) no-repeat -161px -191px;
+}

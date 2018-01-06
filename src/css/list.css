@@ -1,0 +1,421 @@
+main .search {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  background: #F3F3F3;
+}
+
+main .search .we {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .search .we li {
+  float: left;
+}
+
+main .search .we input {
+  width: 180px;
+  height: 24px;
+  display: block;
+  float: left;
+  text-indent: 1em;
+  margin-top: 15px;
+}
+
+main .search .we .fdj {
+  width: 18px;
+  height: 19px;
+  display: block;
+  background: url(../img/ivan.fw.png) no-repeat -262px -156px;
+  position: absolute;
+  left: 304px;
+  top: 17px;
+}
+
+main .search .we .fdj:hover {
+  cursor: pointer;
+}
+
+main .w {
+  width: 1190px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+main .w .wl {
+  width: 188px;
+}
+
+main .w .wl .accordion {
+  width: 188px;
+}
+
+main .w .wl .accordion h2 {
+  padding: 0 15px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  background: #F3F3F3;
+}
+
+main .w .wl .accordion h2 .gg {
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+main .w .wl .accordion h4 {
+  padding: 0 15px;
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: #F3F3F3;
+}
+
+main .w .wl .accordion h4 .icon-jiantou {
+  width: 14px;
+  font-size: 10px;
+  height: 14px;
+  display: block;
+  float: right;
+}
+
+main .w .wl .accordion h4:hover {
+  cursor: pointer;
+  color: #e53;
+}
+
+main .w .wl .accordion .cont {
+  height: 157px;
+  width: 188px;
+  border: 1px dashed #F3F3F3;
+}
+
+main .w .wr {
+  width: 1000px;
+  padding-left: 30px;
+}
+
+main .w .wr .l1 {
+  width: 900px;
+  padding-top: 10px;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+main .w .wr .qq1 {
+  width: 90px;
+  color: #666;
+  font-size: 12px;
+}
+
+main .w .wr .w1 {
+  width: 810px;
+}
+
+main .w .wr .w1 a {
+  width: 132px;
+  margin-bottom: 5px;
+  height: 16px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0096E6;
+}
+
+main .w .wr .l2 {
+  height: 93px;
+}
+
+main .w .wr .l3 {
+  height: 63px;
+}
+
+main .w .wr .l4 {
+  height: 40px;
+}
+
+main .w .wr .l5 {
+  height: 35px;
+  width: 900px;
+}
+
+main .w .wr .l5 .shouqi {
+  width: 76px;
+  height: 26px;
+  margin-left: 400px;
+  margin-top: -1px;
+  font-size: 12px;
+  line-height: 26px;
+  background: #fff;
+  border: 1px solid #F3F3F3;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+
+main .w .wr .l5 .shouqi:hover {
+  cursor: pointer;
+  color: #FF7373;
+  border-color: #EE5533;
+  border-top: #fff;
+}
+
+main .w .wr .l5 .shouqi .xia {
+  width: 15px;
+  height: 12px;
+  display: block;
+  background: url(../img/ivan.fw.png) no-repeat -265px -186px;
+  position: absolute;
+  left: 54px;
+  top: 6px;
+}
+
+main .w .wr .paixu {
+  height: 38px;
+  padding-top: 8px;
+  padding-left: 15px;
+  background: #F3F3F3;
+}
+
+main .w .wr .paixu .a1 {
+  background: #EE5533;
+  color: #fff;
+}
+
+main .w .wr .paixu a {
+  height: 25px;
+  line-height: 24px;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  width: 58px;
+  border: 1px solid #F3F3F3;
+  display: inline-block;
+  margin-right: 6px;
+  background: #fff;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+main .w .wr .paixu a .xarrow {
+  width: 9px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  left: 43px;
+  top: 7px;
+  background: url("../img/ivan.fw.png") no-repeat -508px -180px;
+}
+
+main .w .wr .paixu a .sxjg {
+  width: 9px;
+  height: 12px;
+  display: block;
+  background: url("../img/ivan.fw.png") no-repeat -521px -179px;
+  position: absolute;
+  left: 43px;
+  top: 7px;
+}
+
+main .w .wr .paixu a:hover {
+  cursor: pointer;
+  background: #EE5533;
+  color: #fff;
+}
+
+main .w .wr .paixu a:hover .xarrow {
+  background: url("../img/ivan.fw.png") no-repeat -535px -180px;
+}
+
+main .w .wr .paixu a:hover .sxjg {
+  background: url("../img/ivan.fw.png") no-repeat -547px -180px;
+}
+
+main .w .wr .paixu #qqgou {
+  margin-left: 32px;
+}
+
+main .w .wr .paixu #youhuo {
+  margin-left: 19px;
+}
+
+main .w .wr .paixu label {
+  margin-left: 6px;
+}
+
+main .w .wr .paixu label:hover {
+  cursor: pointer;
+}
+
+main .w .wr .paixu .sps {
+  margin-left: 113px;
+}
+
+main .w .wr .paixu .fenye .dqy {
+  margin-left: 15px;
+  color: #e53;
+}
+
+main .w .wr .paixu .qh {
+  width: 26px;
+  height: 26px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  border: 2px solid #E6E6E6;
+}
+
+main .w .wr .paixu .qh:hover {
+  cursor: pointer;
+}
+
+main .w .wr .paixu .prev {
+  margin-left: 22px;
+  color: #ccc;
+}
+
+main .w .wr .paixu .next {
+  margin-left: 2px;
+}
+
+main .w .wr .goodcan {
+  width: 1190px;
+}
+
+main .w .wr .goodcan ul li {
+  float: left;
+  margin-right: 10px;
+  border: 3px solid #fff;
+  padding: 2px;
+}
+
+main .w .wr .goodcan ul li .jian {
+  width: 210px;
+  margin-right: 10px;
+  display: block;
+}
+
+main .w .wr .goodcan ul li .jian:hover {
+  cursor: pointer;
+}
+
+main .w .wr .goodcan ul li .price {
+  font-size: 16px;
+  color: #EE5533;
+}
+
+main .w .wr .goodcan ul li .biaoti {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+}
+
+main .w .wr .goodcan ul li .yyxx {
+  line-height: 40px;
+  color: #999;
+}
+
+main .w .wr .goodcan ul li .yyxx .yipin {
+  color: #333;
+  margin-left: 40px;
+}
+
+main .w .wr .goodcan ul li .buyit {
+  background: #F3F3F3;
+  border-top: 2px solid #E6E6E6;
+}
+
+main .w .wr .goodcan ul li .buyit i {
+  color: #EE5533;
+  margin-right: 5px;
+}
+
+main .w .wr .goodcan ul li .buyit .cheche {
+  width: 128px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-right: 2px solid #E6E6E6;
+}
+
+main .w .wr .goodcan ul li .buyit .cheche:hover {
+  cursor: pointer;
+  background: #e53;
+  color: #fff;
+}
+
+main .w .wr .goodcan ul li .buyit .cheche:hover i {
+  color: #fff;
+}
+
+main .w .wr .goodcan ul li .buyit .shoucang {
+  width: 87px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+main .w .wr .goodcan ul li .buyit .shoucang:hover {
+  cursor: pointer;
+  background: #e53;
+  color: #fff;
+}
+
+main .w .wr .goodcan ul li .buyit .shoucang:hover i {
+  color: #fff;
+}
+
+main .w .wr .goodcan ul li:hover {
+  border: 3px solid #e53;
+  cursor: pointer;
+}
+
+main .w .wr .dbfy {
+  height: 38px;
+  margin-top: 35px;
+  margin-left: 180px;
+  margin-bottom: 60px;
+}
+
+main .w .wr .dbfy .ymh {
+  display: inline-block;
+}
+
+main .w .wr .dbfy .yema {
+  display: inline-block;
+  padding-left: 13px;
+  padding-right: 13px;
+  line-height: 34px;
+  border: 2px solid #E6E6E6;
+  margin-right: 6px;
+}
+
+main .w .wr .dbfy .yema:hover {
+  cursor: pointer;
+  background: #e53;
+  color: #fff;
+}
+
+main .w .wr .dbfy .active {
+  background: #e53;
+  color: #fff;
+}
+
+main .w .wr .dbfy .qita {
+  margin-right: 18px;
+}
+
+main .w .wr .dbfy #dayin {
+  width: 44px;
+  height: 34px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 34px;
+  text-align: center;
+  border: 2px solid #E6E6E6;
+}

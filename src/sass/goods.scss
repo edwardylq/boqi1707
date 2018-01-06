@@ -1,0 +1,297 @@
+
+.gtop{
+    height: 38px;
+    background: #F3F3F3;
+}
+.w{
+    .content{
+        height: 530px;
+        .c2{
+            width: 558px;
+            height: 460px;
+            padding: 0 19px;
+            .p1{
+                height: 57px;
+                line-height: 56px;
+                font-size: 20px;
+            }
+            .pb{
+                width: 520px;
+                height: 102px;
+                background: #FEF8F6;
+                padding-left: 10px;
+                font-family: Arial,"SimSun";
+                span{margin-left: 18px;}
+                .p2{
+                    height: 58px;
+                    line-height: 58px;
+                    font-size: 12px;
+                    .bqj{
+                        font-size: 26px;
+                        font-weight: bold;
+                        color:#EE5533;
+                    }
+                }
+                .p3{
+                    height: 14px;
+                    line-height: 14px;
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                    .zdj{
+                        text-decoration: line-through;
+                    }
+                    .cx{
+                        color:#EE5533;
+                        .zj{
+                            width: 28px;
+                            height: 14px;
+                            display: inline-block;
+                            background: #EE5533;
+                            color:#fff;
+                            line-height: 14px;
+                            font-size: 10px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            .phz{
+                margin-top: 17px;
+                padding-left: 10px;
+                width: 518px;
+                span{}
+                .cbox{
+                    width: 65px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    display: inline-block;
+                    margin-left: 21px;
+                    margin-right: 19px;
+                    border:1px solid #ccc;
+                    text-align: center;
+                }
+                .zcb{
+                    color:#e53;
+                }
+            }
+            .count{
+                margin-top: 16px;
+                   padding-left: 12px;
+                   span{
+                    height: 36px;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 36px;
+                   }
+                   .amount{
+                    margin-left: 10px;
+                    margin-bottom: -8px;
+                    display: inline-block;
+                         .jj{
+                            float: left;
+                        display:block;
+                        margin-top: 4px;
+                        width: 21px;
+                        text-align: center;
+                        height: 28px;
+                        line-height: 28px;
+                        border:1px solid #ccc;
+                       }
+                       input{
+                        float: left;
+                        margin-top: 4px;
+                        display: block;
+                        width: 60px;
+                        font-weight: bold;
+                        height: 28px;
+                        text-align: center;
+                        line-height: 28px;
+                        border:1px solid #ccc;
+                        border-left: 0;
+                        border-right: 0;
+                       }
+                   }
+            }
+            .buynow{
+                padding-left: 90px;
+                margin-top: 16px;
+                li{
+                    float: left;
+                    height: 40px;
+                    margin-right: 12px;
+                    font-size: 16px;
+                    padding-left: 8px;
+                    text-align: center;
+                    line-height: 40px;
+                    &:hover{cursor:pointer;}
+                }
+                i{
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+                .buy{
+                    width: 130px;
+                    background: #EE5533;
+                    a{color:#fff}
+                    &:hover{background: #c20;}
+                }
+                .jcar{
+                    width: 150px;
+                    border:1px solid #EE5533;
+                    background: #FDF2EE;
+                    color:#EE5533;
+                }
+                .cole{
+                    width: 111px;
+                    font-size: 14px;
+                    &:hover{color:#EE5533;}
+
+                }
+            }
+        }
+        .c3{
+            width: 228px;
+            height: 460px;
+            margin-top: 15px;
+            border:1px solid #F3F3F3;
+            .c31{
+                width: 228px;
+                height: 100px;
+                background:url(../img/ivan.fw.png) no-repeat -2px -593px;
+            }
+            .c32{
+                margin-left: 14px;
+                padding-top: 18px;
+                font-size: 12px;
+                width: 228px;
+                height: 138px;
+                border-bottom: 1px dotted #F3F3F3;
+                i{color:#EE5533;}
+                P{margin-bottom: 10px;}
+                span{margin-left: 5px;}
+                .pinpai{color:#0088DD}
+                .fen{color:#EE5533}
+            }
+            .c33{
+                width: 228px;
+                height: 82px;
+                padding-left: 14px;
+                margin-top: 18px;
+                border-bottom: 1px solid #F3F3F3;
+                p{
+                    margin-bottom: 14px;
+                    &:hover{cursor:pointer;}
+                    .icon-shouquan{color:#00D900;}
+                    .icon-zixun{color:#EE5533;}
+                    .kefu{
+                        display: inline-block;
+                        width: 90px;
+                        height: 28px;
+                        line-height: 28px;
+                        text-align: center;
+                        border:1px solid #DDDDDD;
+                        background: #F3F3F3;
+                    }
+
+                }
+            }
+            .c34{
+                padding-left: 10px;
+                padding-top: 27px;
+                img{
+                    display: block;
+                    float: left;
+                }
+                .xiang{
+                    display:block;
+                    width: 136px;
+                    height: 70px;
+                    float: left;
+                    margin-left: 10px;
+                    .lixiang{
+                        color:#e53;
+                    }
+
+                }
+            }
+        }
+    }
+    .intr{
+        .int_l{
+            width: 172px;
+            border: 1px dotted skyblue;
+            margin-right: 10px;
+            .tuijian{
+                height: 44px;
+                line-height: 44px;
+                font-size: 16px;
+                text-align: center;
+            }
+            ul{
+                li{
+                    p{margin-left: 10px;}
+                    border-top:1px dotted skyblue;
+                    border-bottom:1px dotted skyblue;
+                    margin-bottom: 10px;
+                }
+                span{
+                    margin-left: 10px;
+                    display: inline-block;
+                }
+                .tpr{
+                    font-size: 18px;
+                    color:#ee5533;
+                    .yishou{
+                        color:#999;
+                        font-size: 12px;
+                        margin-left: 19px;
+                    }
+                }
+
+            }
+        }
+        .int_r{
+            width: 970px;
+            height: 3455px;
+            border: 1px dotted orange;
+            .tab{
+                height: 45px;
+                background: #F3F3F3;
+                .ta{
+                    height: 45px;
+                    float: left;
+                    font-size: 14px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    line-height: 44px;
+                    &:hover{color:#EF5533;cursor:pointer;}
+                }
+            }
+            .cont{
+                height: 3400px;
+                position:relative;
+                div{
+                    
+                    width: 968px;
+                    position:absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .ct1{
+                    a{
+                        width: 948px;
+                        height: 360px;
+                        display: block;
+                        margin-bottom: 15px;
+                        background:url(../img/xq1.jpg);
+                    }
+                    img{
+                        margin-left: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+

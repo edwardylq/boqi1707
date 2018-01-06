@@ -1,0 +1,318 @@
+
+
+main{
+    .search{
+        width: 100%;
+        height:50px;
+        line-height: 50px;
+        font-size: 12px;
+        background: #F3F3F3;
+         .we{
+           width: 1190px;
+           margin: 0 auto;
+           position:relative;
+           li{
+             float: left;
+           }
+           input{
+            width: 180px;
+            height: 24px;
+            display: block;
+            float: left;
+            text-indent:1em;
+            margin-top: 15px;
+           }
+           .fdj{
+            width: 18px;
+            height: 19px;
+            display: block;
+            background: url(../img/ivan.fw.png) no-repeat -262px -156px;
+            position:absolute;
+            left: 304px;
+            top: 17px;
+            &:hover{cursor:pointer;}
+           }
+
+        }
+    }
+    .w{
+        width: 1190px;
+        margin: 0 auto;
+        padding-top: 18px;
+        .wl{
+            width: 188px;
+            .accordion{
+                width: 188px;
+                h2{
+                    padding:0 15px;
+                    height: 60px;
+                    line-height: 60px;
+                    font-size: 16px;
+                    border-bottom:2px solid rgba(255,255,255,0.8);
+                    background: #F3F3F3;
+                    .gg{
+                        margin-right: 5px;
+                        font-size: 24px;
+                    }
+                }
+                h4{
+                    padding:0 15px;
+                    height: 40px;
+                    font-size: 14px;
+                    color:#333;
+                    line-height: 40px;
+                    border-bottom:1px solid rgba(255,255,255,0.2);
+                    background: #F3F3F3;
+                    .icon-jiantou{
+                            width: 14px;
+                            font-size: 10px;
+                            height: 14px;
+                            display: block;
+                            float: right;
+                    }
+                    &:hover{cursor:pointer;color:#e53;}
+                }
+                .cont{
+                    height: 157px;
+                    width: 188px;
+                    border:1px dashed #F3F3F3;
+                }
+                
+
+            }
+        }
+        .wr{
+            width: 1000px;
+            padding-left: 30px;
+            .l1{
+                width: 900px;
+                padding-top: 10px;
+                border-bottom:1px solid #F3F3F3;
+            }
+            .qq1{
+                width: 90px;
+                color:#666;
+                font-size: 12px;
+            }
+            .w1{
+                width: 810px;
+                a{
+                    width: 132px;
+                    margin-bottom: 5px;
+                    height: 16px;
+                    display: inline-block;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color:#0096E6;
+                }
+            }
+            .l2{
+                height: 93px;
+            }
+            .l3{height: 63px;}
+            .l4{
+                height: 40px;
+            }
+            .l5{
+                height: 35px;
+                 width: 900px;
+                .shouqi{
+                    width: 76px;
+                    height: 26px;
+                    margin-left: 400px;
+                    margin-top: -1px;
+                    font-size: 12px;
+                    line-height: 26px;
+                    background: #fff;
+                    border:1px solid #F3F3F3;
+                    border-top: 1px solid #fff;
+                    position:relative;
+                    &:hover{cursor:pointer;color:#FF7373;border-color:#EE5533;border-top: #fff;}
+                    .xia{
+                        width: 15px;
+                        height: 12px;
+                        display: block;
+                        background: url(../img/ivan.fw.png) no-repeat -265px -186px;
+                        position:absolute;
+                        left: 54px;
+                        top: 6px;
+
+                    }
+                }
+            }
+            .paixu{
+                height: 38px;
+                padding-top: 8px;
+                padding-left: 15px;
+                background: #F3F3F3;
+                .a1{background: #EE5533;color:#fff;}
+                a{
+                    height: 25px;
+                    line-height: 24px;
+                    font-size: 12px;
+                    position:relative;
+                    text-align: center;
+                    width: 58px;
+                    border:1px solid #F3F3F3;
+                    display: inline-block;
+                    margin-right: 6px;
+                    background: #fff;
+                        font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+                    
+                    .xarrow{
+                        width: 9px;
+                        height: 11px;
+                        display: block;
+                        position:absolute;
+                        left: 43px;
+                        top: 7px;
+                        background: url('../img/ivan.fw.png') no-repeat -508px -180px;
+                    }
+                    .sxjg{
+                        width: 9px;
+                        height: 12px;
+                        display: block;
+                        background:url('../img/ivan.fw.png') no-repeat -521px -179px;
+                        position:absolute;
+                        left: 43px;
+                        top: 7px;
+                    }
+                    &:hover{
+                        cursor:pointer;
+                        background: #EE5533;color:#fff;
+                        .xarrow{background: url('../img/ivan.fw.png') no-repeat -535px -180px;}
+                        .sxjg{ background:url('../img/ivan.fw.png') no-repeat -547px -180px;}
+                    }
+
+                }
+                #qqgou{
+                    margin-left: 32px;
+                }
+                #youhuo{
+                    margin-left: 19px;
+                }
+                label{margin-left: 6px;
+                      &:hover{cursor:pointer;}
+                }
+                .sps{margin-left: 113px;}
+                .fenye{
+                    .dqy{
+                        margin-left: 15px;
+                        color:#e53;
+                    }
+                }
+                .qh{
+                    width: 26px;
+                    height: 26px;
+                    line-height: 20px;
+                    text-align: center;
+                    display: inline-block;
+                    background: #fff;
+                    border:2px solid #E6E6E6;
+                    &:hover{cursor:pointer;}
+                }
+                .prev{
+                    margin-left: 22px;
+                    color:#ccc;
+                }
+                .next{margin-left: 2px;}
+
+            }
+            .goodcan{
+                width: 1190px;
+                ul{
+                    li{
+                        float: left;
+                        margin-right: 10px;
+                        border:3px solid #fff;
+                        .jian{
+                        width: 210px;
+                        margin-right: 10px;
+                        display: block;
+                        &:hover{cursor:pointer;}
+                        }
+                        padding: 2px;
+                        .price{
+                            font-size: 16px;
+                            color:#EE5533;
+                        }
+                        .biaoti{
+                            font-size: 14px;
+                            color:#333;
+                            line-height: 22px;
+                        }
+                        .yyxx{
+                            line-height: 40px;
+                            color:#999;
+                            .yipin{
+                                color:#333;
+                                margin-left: 40px;
+                            }
+                        }
+                        .buyit{
+                            background: #F3F3F3;
+                            border-top: 2px solid #E6E6E6;
+                            i{color:#EE5533;margin-right: 5px;}
+                            .cheche{
+                                width: 128px;
+                                height: 30px;
+                                text-align: center;
+                                line-height: 30px;
+                                border-right:2px solid #E6E6E6;
+                                &:hover{
+                                    cursor:pointer;
+                                    background: #e53;
+                                    color:#fff;
+                                    i{color:#fff;}
+                                }
+                            }
+                            .shoucang{
+                                width: 87px;
+                                height: 30px;
+                                text-align: center;
+                                line-height: 30px;
+                                &:hover{
+                                    cursor:pointer;
+                                    background: #e53;
+                                    color:#fff;
+                                    i{color:#fff;}
+                                }
+                            }
+                        }
+                        &:hover{border:3px solid #e53;cursor:pointer;}
+                    }
+                }
+            }
+            .dbfy{
+                height: 38px;
+                margin-top: 35px;
+                margin-left: 180px;
+                margin-bottom:60px;
+                .ymh{display: inline-block;}
+                .yema{
+                    display: inline-block;
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    line-height: 34px;
+                    border:2px solid #E6E6E6;
+                    margin-right: 6px;
+                    &:hover{cursor:pointer;background: #e53;color:#fff;}
+                }
+                .active{background: #e53;color:#fff;}
+                .qita{margin-right: 18px;}
+                #dayin{
+                    width: 44px;
+                    height: 34px;
+                    font-size: 12px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    line-height: 34px;
+                    text-align: center;
+                    border:2px solid #E6E6E6;
+                }
+            }
+        }
+    }
+
+}
+

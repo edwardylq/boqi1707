@@ -1,0 +1,392 @@
+.hw {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.w {
+  margin: 0 auto;
+}
+
+.yonghu {
+  height: 88px;
+  background: #F3F3F3;
+}
+
+.yonghu .w {
+  width: 992px;
+}
+
+.yonghu .w h1 {
+  width: 190px;
+  height: 88px;
+  float: left;
+  text-indent: -1000px;
+  background: url(../img/ivan.fw.png) no-repeat -2px -501px;
+}
+
+.yonghu .w h1 a {
+  width: 190px;
+  height: 88px;
+  display: block;
+}
+
+.yonghu .w h1 a span {
+  text-indent: -100px;
+}
+
+.yonghu .w .dd {
+  width: 374px;
+  height: 42px;
+  padding-left: 74px;
+  margin-top: 46px;
+}
+
+.yonghu .w .dd ul li {
+  float: left;
+  position: relative;
+}
+
+.yonghu .w .dd ul li i {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  top: -9px;
+  background: #EE5533;
+  color: #fff;
+  border-radius: 50px;
+  left: -1px;
+}
+
+.yonghu .w .dd ul li .q2, .yonghu .w .dd ul li .q3 {
+  color: #ccc;
+  font-weight: normal;
+  background: #fff;
+}
+
+.yonghu .w .dd ul li .do {
+  width: 100px;
+  height: 4px;
+  margin-bottom: 10px;
+  background: #ccc;
+}
+
+.yonghu .w .dd ul li .d1 {
+  background: #EE5533;
+}
+
+.ziying {
+  background: #F3F3F3;
+}
+
+.ziying .w {
+  width: 992px;
+  height: 46px;
+  border-bottom: 4px solid #EE5533;
+}
+
+.ziying .w p {
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+  color: #EE5533;
+}
+
+.ziying .w p a {
+  margin-left: 529px;
+  font-size: 12px;
+}
+
+.heart {
+  background: #F3F3F3;
+}
+
+.heart .w {
+  width: 992px;
+  background: #fff;
+}
+
+.heart .w .kong {
+  display: none;
+  height: 262px;
+  line-height: 262px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.heart .w .kong .iconfont {
+  color: #EE5533;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.heart .w .kong a {
+  color: #0080FF;
+}
+
+.heart .w .cart {
+  width: 992px;
+  background: #F3F3F3;
+}
+
+.heart .w .cart .car1 {
+  padding-left: 12px;
+  height: 37px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.heart .w .cart .car1 span {
+  height: 37px;
+  line-height: 37px;
+}
+
+.heart .w .cart .car1 input {
+  background: #fff;
+}
+
+.heart .w .cart .car1 .t0 {
+  margin-right: 172px;
+}
+
+.heart .w .cart .car1 .t0:hover {
+  cursor: pointer;
+}
+
+.heart .w .cart .car1 .t1 {
+  margin-right: 162px;
+}
+
+.heart .w .cart .car1 .t2 {
+  margin-right: 26px;
+}
+
+.heart .w .cart .car1 .t3 {
+  margin-right: 55px;
+}
+
+.heart .w .cart .car1 .t4 {
+  margin-right: 62px;
+}
+
+.heart .w .cart .car1 .t5 {
+  margin-right: 60px;
+}
+
+.heart .w .cart .car1 .t6 {
+  margin-right: 95px;
+}
+
+.heart .w .cart .good {
+  background: #fff;
+}
+
+.heart .w .cart .good ul li {
+  height: 118px;
+  padding-top: 17px;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.heart .w .cart .good ul li .go1 {
+  width: 126px;
+  height: 118px;
+  padding-left: 17px;
+  position: relative;
+}
+
+.heart .w .cart .good ul li .go1 .bbox {
+  position: absolute;
+  left: 12px;
+  top: 40px;
+}
+
+.heart .w .cart .good ul li .go1 .x1 {
+  width: 85px;
+  height: 89px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+.heart .w .cart .good ul li .go2 {
+  width: 253px;
+  height: 89px;
+  margin-left: 10px;
+}
+
+.heart .w .cart .good ul li .go2 .x2 {
+  height: 27px;
+  line-height: 20px;
+}
+
+.heart .w .cart .good ul li .go2 span {
+  width: 39px;
+  height: 23px;
+  line-height: 22px;
+  display: block;
+  margin-top: 23px;
+  text-align: center;
+  color: #ee5533;
+  border: 1px solid #ee5533;
+}
+
+.heart .w .cart .good ul li .go3 .x3 {
+  margin-left: 30px;
+}
+
+.heart .w .cart .good ul li .go4 .x4 {
+  margin-left: 38px;
+  color: #ee5533;
+}
+
+.heart .w .cart .good ul li .go5 {
+  width: 72px;
+  height: 22px;
+  line-height: 22px;
+  margin-left: 50px;
+  text-align: center;
+  color: #ee5533;
+  border: 1px dashed #ee5533;
+}
+
+.heart .w .cart .good ul li .go6 {
+  height: 22px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  line-height: 22px;
+}
+
+.heart .w .cart .good ul li .go6 i {
+  width: 22px;
+  height: 22px;
+  display: block;
+  text-align: center;
+}
+
+.heart .w .cart .good ul li .go6 i:hover {
+  cursor: pointer;
+}
+
+.heart .w .cart .good ul li .go6 input {
+  width: 40px;
+  height: 20px;
+  line-height: 20;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  float: left;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+}
+
+.heart .w .cart .good ul li .go7 .x7 {
+  margin-left: 28px;
+  color: #ee5533;
+  font-weight: bold;
+}
+
+.heart .w .cart .good ul li .go8 {
+  width: 50px;
+  height: 30px;
+  margin-left: 53px;
+}
+
+.heart .w .cart .good ul li .go8 span:hover {
+  cursor: pointer;
+}
+
+.heart .w .cart .account {
+  width: 992px;
+  height: 77px;
+  margin-top: 20px;
+  background: #fff;
+}
+
+.heart .w .cart .account .acl {
+  width: 280px;
+  height: 77px;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+.heart .w .cart .account .acl .t0:hover {
+  cursor: pointer;
+}
+
+.heart .w .cart .account .acl button {
+  border: none;
+  font-weight: bold;
+  background: #fff;
+  color: #333;
+  margin-left: 28px;
+}
+
+.heart .w .cart .account .acl button:hover {
+  cursor: pointer;
+  corlor: #e53;
+}
+
+.heart .w .cart .account .acc {
+  width: 580px;
+  height: 77px;
+  padding: 17px 18px 0 200px;
+}
+
+.heart .w .cart .account .acc .s {
+  height: 22px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.heart .w .cart .account .acc .s .jianshu {
+  color: #e53;
+}
+
+.heart .w .cart .account .acc .s .total {
+  color: #e53;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.heart .w .cart .account .acc .s1 {
+  color: #999999;
+  font-size: 12px;
+  margin-top: -2px;
+  margin-left: 277px;
+}
+
+.heart .w .cart .account .acc .s2 {
+  margin-left: 86px;
+  margin-top: 5px;
+}
+
+.heart .w .cart .account .acr {
+  width: 130px;
+  height: 77px;
+  padding-top: 17px;
+  padding-right: 12px;
+}
+
+.heart .w .cart .account .acr .dwjs {
+  width: 106px;
+  height: 37px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  background: #EE5533;
+}
+
+.heart .w .cart .account .acr .dwjs:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 303px;
+  overflow-y: hidden;
+}

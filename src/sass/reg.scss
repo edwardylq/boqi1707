@@ -1,0 +1,300 @@
+
+
+header{
+  .w{
+        width: 992px;
+        height: 36px;
+        margin: 0 auto;
+        .z_u1{
+               li{
+                position:relative;
+                 float: left;
+                 a{
+                   font-size: 14px;
+                   line-height: 36px;
+                   margin-right: 21px;
+                   &:hover{border-bottom:1px solid #FC4A00;}
+                 }
+                }
+        } 
+        .z_u2{
+            position:relative;
+            li{
+                float: left;
+                .z_wb{
+                    width: 80px;
+                    height: 80px;
+                    display: none;
+                    border:1px solid #ccc;
+                    position:absolute;
+                    top: 36px;
+                    left:-37px;
+                    background: url(../img/ivan.fw.png) no-repeat -270px -206px;
+                }
+                 &:hover{.z_wb{display: block;}}
+                 a{
+                    display: block;
+                    padding-right: 13px;
+                    height: 14px;
+                    line-height: 14px;
+                    margin-top: 14px;
+                    text-align: center;
+                    border-right:1px solid #ccc;
+                    &:hover{
+                        border-bottom: none;
+                        span{border-bottom:1px solid #FC4A00;}
+                    }
+                 }
+            }
+        }
+
+    }
+
+}
+
+main{
+    .yonghu{
+        height: 88px;
+        background: #F3F3F3;
+        .w{
+            margin: 0 auto;
+            height: 88px;
+            width: 992px;
+            h1{
+                width: 190px;
+                height: 88px;
+                float: left;
+                text-indent: -1000px;
+                background: url(../img/ivan.fw.png) no-repeat -2px -501px ;
+                a{
+                    width: 190px;
+                    height: 88px;
+                    display: block;
+                     span{
+                    text-indent: -100px;
+                }
+                }
+               
+            }
+            h2{
+                font-size: 24px;
+                height: 88px;
+                line-height: 88px;
+                float: left;
+                margin-left: 20px;
+                span{
+                     padding-left: 10px;
+                     border-left:1px solid #ccc;
+                }
+            }
+            p{
+                float: right;
+                font-family: "SimSun";
+                color:#333;
+                margin-top: 58px;
+                a{
+                    color:#0088DD;
+                }
+            }
+        }
+    }
+
+.content{
+     background: #F3F3F3;
+    .w{
+        margin: 0 auto;
+        width: 992px;    
+        background: #fff;
+        border:1px solid #ccc;
+        .regl{
+            width: 810px;
+            height: 583px;
+            padding-left: 50px;
+            padding-top: 32px;
+            position:relative;
+            li{
+                float: left;
+                width: 260px;
+                position:relative;
+                border-bottom: 4px solid #FF6654;
+                text-align: center;
+                color:#333;
+                span{
+                    font-size: 20px;
+                    display: block;
+                    line-height: 32px;
+                    &:hover{cursor:pointer;}
+                }
+                i{font-size: 22px;margin-right: 5px;}
+                .jiao{
+                    width: 0;
+                    height: 0;
+                    border-top:6px solid #FF6656;
+                    border-bottom: 6px solid #fff;
+                    border-left:  6px solid #fff;
+                    border-right: 6px solid #fff;
+                    position:absolute;
+                    left:127px;
+                    top:37px;
+                }
+                .jiao2{
+                    left:386px;
+                    top:37px;
+                    display: none;
+                }
+
+            }
+            li:last-child{
+                border-bottom: 4px solid #DDDDDD;
+            }
+            .z_sj{
+                width: 660px;
+                height: 470px;
+                // display: none;
+                position:absolute;
+                left:145px;
+                top:104px;
+                font-size: 14px;
+                label{
+                    display: inline-block;
+                    line-height: 40px;
+                    height: 40px;
+                    font-size: 16px;
+                    width: 108px;
+                    text-align: right;
+                    padding: 0 12px;
+                    position:relative;
+                    .yzm{
+                        width: 70px;
+                        height: 23px;
+                        line-height: 22px;
+                        background: -webkit-repeating-linear-gradient(35deg,white 0%,white 5%,#C3FAF4 5%,#C3FAF4 10%);
+                        color:#88C3FB;
+                        font-weight: bold;
+                        font-family: '楷体';
+                        font-size: 18px;
+                        text-align: center;
+                        border:1px solid #DDDDDD;
+                        position:absolute;
+                        left: 261px;
+                        top: 4px;
+                        &:hover{cursor:pointer;background: -webkit-repeating-linear-gradient(150deg,white 0%,white 5%,#FFCFBF 5%,#FFCFBF 10%);}
+                    }
+                }
+                .z_error{
+                    width: 29px;
+                    height: 29px;
+                    background: url(../img/ivan.fw.png) no-repeat -250px -120px;
+                    position:absolute;
+                    left: 208px;
+                    top: 214px;
+                }
+                input{
+                    display: inline-block;
+                    height: 40px;
+                    padding-left: 14px;
+                    margin-bottom: 12px;
+                    line-height: 40px;
+                    width: 252px;
+                    border:1px solid #ccc;
+                }
+                .z_tip{
+                    display: inline-block;
+                    margin-left: 10px;
+                    width: 233px;
+                    height: 24px;
+                    font-size: 12px;
+                    line-height: 24px;
+                    text-align: center;
+                    color:#FF6655;
+                    border:1px solid #FFBDBF;
+                    background: #FFEBEC;
+                }
+                #z_vCode{width: 130px;}
+                #z_dxCode{width: 130px;}
+                #z_xieyi{
+                    width: 12px;
+                    height: 12px;
+                    margin-left: 105px;
+                    margin-top: 10px;
+
+                }
+                .z_xyl{
+                    width: 108px;
+                    font-size: 12px;
+                    color:#333;
+                    text-align: left;
+                }
+                a{
+                        color:#6C95D5;
+                        font-size: 12px;
+                        &:hover{cursor:pointer;}
+                }
+                #z_reg{
+                    width: 252px;
+                    height: 48px;
+                    line-height: 48px;
+                    font-size: 24px;
+                    background: #FF6655;
+                    color:#fff;
+                    margin-top: 11px;
+                    font-weight: bold;
+                    margin-left: 105px;
+                    &:hover{cursor:pointer;background:#FF0000}
+                    &:active{background: #B20000;}
+                }
+                .z_dxh{
+                    width: 110px;
+                    height: 40px;
+                    position:absolute;
+                    left: 245px;
+                    top: -4px;
+                    border:1px solid #ccc;
+                    // background: #F3F3F3;
+                    background: -webkit-gradient(linear,0 0 ,100% 100%,from(#4DFF4D),to(skyblue));
+                    line-height: 40px;
+                    font-size: 12px;
+                    text-align: center;
+                    color:#fff;
+                    &:hover{ cursor:pointer;background: -webkit-gradient(linear,0 0 ,100% 100%,from(orange),to(#4DFFFF));}
+                }
+            }
+            .z_yx{
+                width: 660px;
+                height: 470px;
+                position:absolute;
+                left:145px;
+                top:104px;
+                // left:145px;
+                // top:585px;
+                font-size: 14px;
+            }
+        }
+
+        .regr{
+            a{  
+                display: block;
+                width: 180px;
+                height: 583px;
+                background:url(../img/ivan.fw.png) no-repeat -717px -1px;
+            }
+            
+        }
+    }
+}
+}
+.biao{
+    width: 28px;
+    height: 25px;
+    display: block;
+    position:absolute;
+    left:365px;
+    top: 2px;
+    background: url(../img/ivan.fw.png) no-repeat -250px -92px;
+}
+.biaoge{
+    left:208px;
+    top: 3px;
+}
+
+

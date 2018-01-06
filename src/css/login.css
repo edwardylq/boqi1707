@@ -1,46 +1,36 @@
-/* 
-* @Author: Marte
-* @Date:   2018-01-03 00:38:25
-* @Last Modified by:   Marte
-* @Last Modified time: 2018-01-03 10:55:19
-*/
-.login header .yonghu {
+@charset "UTF-8";
+.w {
+  width: 992px;
+}
+
+.w header .yonghu {
   height: 88px;
   padding-top: 20px;
   background: #F3F3F3;
-  margin: 0 auto;  
+  margin: 0 auto;
   height: 88px;
   width: 992px;
- 
 }
-.login header .yonghu h1 {
+
+.w header .yonghu h1 {
   width: 190px;
   height: 88px;
   float: left;
   text-indent: -1000px;
-   position: relative;
-  
+  background: url(../img/ivan.fw.png) no-repeat -2px -501px;
 }
 
-.login header .yonghu h1 a i{
-    position:absolute;
-    top:0;
-    left:0;
-    height: 184px;
-    width: 105px;
-}
-
-.login header .yonghu h1 a {
+.w header .yonghu h1 a {
   width: 190px;
   height: 88px;
   display: block;
 }
 
-.login header .yonghu h1 a span {
+.w header .yonghu h1 a span {
   text-indent: -100px;
 }
 
-.login header .yonghu h2 {
+.w header .yonghu h2 {
   font-size: 24px;
   height: 88px;
   line-height: 88px;
@@ -48,66 +38,68 @@
   margin-left: 20px;
 }
 
-.login header .yonghu h2 span {
+.w header .yonghu h2 span {
   padding-left: 10px;
   border-left: 1px solid #ccc;
 }
 
-.login header .yonghu p {
+.w header .yonghu p {
   float: right;
   font-family: "SimSun";
   color: #333;
   margin-top: 58px;
 }
 
-.login header .yonghu p a {
+.w header .yonghu p a {
   color: #0088DD;
 }
 
-.login main {
+.w main {
   width: 990px;
-  height: 418px;
+  height: 400px;
   margin: 0 auto;
   background: #fff;
   margin-top: 25px;
   border: 1px solid #DDDDDD;
 }
 
-.login main .main1 a {
+.w main .main1 a {
   display: block;
-  width: 478px;
+  width: 480px;
   height: 380px;
-  background: url(../css/img/logo4.jpg) no-repeat;
+  background: url(../img/login1) no-repeat;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-.login main .main2 {
+.w main .main2 {
   width: 456px;
   height: 395px;
-  padding-top:7px;
-  padding-right:4px;
+  padding-top: 33px;
+  padding-right: 46px;
   position: relative;
 }
 
-.login main .main2 i {
+.w main .main2 i {
   width: 16px;
   height: 20px;
   display: block;
   position: absolute;
 }
 
-.login main .main2 .dllogo {
+.w main .main2 .dllogo {
   background: url(../img/ivan.fw.png) no-repeat -562px -11px;
   left: 7px;
   top: 47px;
 }
 
-.login main .main2 .mmlogo {
+.w main .main2 .mmlogo {
   background: url(../img/ivan.fw.png) no-repeat -563px -43px;
   left: 7px;
   top: 98px;
 }
 
-.login main .main2 input {
+.w main .main2 input {
   width: 410px;
   height: 50px;
   font-size: 14px;
@@ -116,25 +108,25 @@
   border: 1px solid #ccc;
 }
 
-.login main .main2 #logWord {
+.w main .main2 #logWord {
   border-top: none !important;
   margin-bottom: 12px;
 }
 
-.login main .main2 .testBox {
+.w main .main2 .testBox {
   width: 410px;
   position: relative;
   margin-top: 6px;
 }
 
-.login main .main2 .testBox input {
+.w main .main2 .testBox input {
   display: inline-block;
   width: 227px;
   height: 50px;
   border: 1px solid #ccc;
 }
 
-.login main .main2 .testBox .yzm {
+.w main .main2 .testBox .yzm {
   display: inline-block;
   width: 70px;
   height: 23px;
@@ -151,20 +143,20 @@
   top: 15px;
 }
 
-.login main .main2 .testBox .yzm:hover {
+.w main .main2 .testBox .yzm:hover {
   cursor: pointer;
 }
 
-.login main .main2 .testBox .hyz {
+.w main .main2 .testBox .hyz {
   margin-left: 90px;
   color: #5EB8F2;
 }
 
-.login main .main2 .testBox .hyz:hover {
+.w main .main2 .testBox .hyz:hover {
   cursor: pointer;
 }
 
-.login main .main2 .testBox .tips {
+.w main .main2 .testBox .tips {
   width: 410px;
   height: 32px;
   line-height: 32px;
@@ -175,22 +167,22 @@
   margin-top: 10px;
 }
 
-.login main .main2 .log1 {
+.w main .main2 .log1 {
   width: 410px;
   height: 16px;
   margin-top: 5px;
 }
 
-.login main .main2 .log1 input {
+.w main .main2 .log1 input {
   width: 14px;
   height: 14px;
 }
 
-.login main .main2 .log1 label {
+.w main .main2 .log1 label {
   margin-right: 216px;
 }
 
-.login main .main2 .log1 a {
+.w main .main2 .log1 a {
   margin-top: 10px;
   display: inline-block;
   height: 14px;
@@ -198,14 +190,14 @@
   border-right: 2px solid #ccc;
 }
 
-.login main .main2 .log1 a:last-child {
+.w main .main2 .log1 a:last-child {
   border-right: none;
   padding-left: 13px;
   padding-right: 0;
 }
 
-.login main .main2 .btnlog {
-  margin-top: 48px;
+.w main .main2 .btnlog {
+  margin-top: 30px;
   width: 410px;
   height: 48px;
   line-height: 48px;
@@ -215,16 +207,16 @@
   font-weight: bold;
 }
 
-.login main .main2 .btnlog:hover {
+.w main .main2 .btnlog:hover {
   cursor: pointer;
   background: #D93600;
 }
 
-.login main .main2 .btnlog:active {
+.w main .main2 .btnlog:active {
   background: #36D900;
 }
 
-.login main .main2 .line {
+.w main .main2 .line {
   width: 410px;
   height: 15px;
   border-bottom: 1px solid #ccc;
@@ -232,7 +224,7 @@
   margin-bottom: 20px;
 }
 
-.login main .main2 .line span {
+.w main .main2 .line span {
   display: inline-block;
   background: #fff;
   margin-left: 149px;
@@ -241,24 +233,24 @@
   text-align: center;
 }
 
-.login main .main2 .com {
+.w main .main2 .com {
   margin-left: 91px;
   margin-top: -3px;
 }
 
-.login main .main2 .com ul li {
+.w main .main2 .com ul li {
   height: 14px;
   line-height: 14px;
   float: left;
 }
 
-.login main .main2 .com ul li a {
+.w main .main2 .com ul li a {
   display: block;
   padding-right: 14px;
   border-right: 2px solid #ccc;
   padding-left: 14px;
 }
 
-.login main .main2 .com ul li:last-child a {
+.w main .main2 .com ul li:last-child a {
   border: none;
 }

@@ -1,0 +1,297 @@
+.hw{width: 992px;margin: 0 auto;}
+.w{margin: 0 auto;}
+        .yonghu{
+        height: 88px;
+        background: #F3F3F3;
+        .w{
+            width: 992px;
+            h1{
+                width: 190px;
+                height: 88px;
+                float: left;
+                text-indent: -1000px;
+                background: url(../img/ivan.fw.png) no-repeat -2px -501px ;
+                a{
+                    width: 190px;
+                    height: 88px;
+                    display: block;
+                     span{
+                    text-indent: -100px;
+                }
+                }
+               
+            }
+            .dd{
+                width: 374px;
+                height: 42px;
+                padding-left: 74px;
+                margin-top: 46px;
+                ul{
+                    li{
+                        float: left;
+                        position:relative;
+                        i{
+                            width: 18px;
+                            height: 18px;
+                            line-height: 18px;
+                            text-align: center;
+                            display: block;
+                            font-weight: bold;
+                            position:absolute;
+                            top: -9px;
+                            background: #EE5533;
+                            color:#fff;
+                            border-radius:50px;
+                            left: -1px;
+                        }
+                        .q2,.q3{
+                            color:#ccc;
+                            font-weight: normal;
+                            background: #fff;
+                        }
+                        .do{
+                              width: 100px;
+                              height: 4px;
+                              margin-bottom: 10px;
+                              background: #ccc;
+                        }
+                        .d1{background: #EE5533;}
+                    }
+                }
+            }
+        }
+    }
+    .ziying{
+        background: #F3F3F3;
+        .w{
+            width: 992px;
+            height: 46px;
+            border-bottom: 4px solid #EE5533;
+            p{
+                font-size: 16px;
+                height: 46px;
+                line-height: 46px;
+                color:#EE5533;
+                a{margin-left: 529px;font-size: 12px;}
+            }
+        }
+    }
+    .heart{
+        background: #F3F3F3;
+        .w{
+            width: 992px;
+            // height: 262px;
+            background: #fff;
+            .kong{
+                // 显示隐藏空购物车
+                display: none;
+                height: 262px;
+                line-height: 262px;
+                font-size: 18px;
+                text-align: center;
+                .iconfont{color:#EE5533;font-size: 28px;margin-right: 10px;}
+                a{color:#0080FF;}
+            }
+            .cart{
+                width: 992px;
+                // 显示隐藏购物车中商品
+                // display: none;
+                background: #F3F3F3;
+                .car1{
+                    padding-left: 12px;
+                    height: 37px;
+                    font-size: 12px;
+                    text-align: left;
+                    span{
+                        height: 37px;
+                        line-height: 37px;
+                    }
+                    input{background: #fff;}
+                    .t0{margin-right: 172px;&:hover{cursor:pointer;}}
+                    .t1{margin-right: 162px;}
+                    .t2{margin-right: 26px;}
+                    .t3{margin-right: 55px;}
+                    .t4{margin-right: 62px;}
+                    .t5{margin-right: 60px;}
+                    .t6{margin-right: 95px;}
+                }
+                .good{
+                    background: #fff;
+                    ul{
+                       li{
+                            height: 118px;
+                            padding-top: 17px;
+                             border-bottom:1px solid #F3F3F3;
+                          .go1{
+                                width: 126px;
+                                height: 118px;
+                                padding-left: 17px;
+                                position:relative;
+                                .bbox{
+                                    position:absolute;
+                                    left: 12px;
+                                    top: 40px;
+                                }
+                                .x1{
+                                    width: 85px;
+                                    height: 89px;
+                                    padding: 1px;
+                                    border:1px solid #ccc;
+                                    margin-left: 20px;
+                                }
+                           }
+                           .go2{
+                                width: 253px;
+                                height: 89px;
+                                margin-left: 10px;
+                                .x2{
+                                    height: 27px;
+                                    line-height: 20px;
+                                }
+                                span{
+                                    width: 39px;
+                                    height: 23px;
+                                    line-height: 22px;
+                                    display: block;
+                                    margin-top: 23px;
+                                    text-align: center;
+                                    color:#ee5533;
+                                    border:1px solid #ee5533;
+                                }
+                           }
+                           .go3{
+                                .x3{margin-left: 30px;}
+                           }
+                           .go4{
+                                .x4{margin-left: 38px;color:#ee5533;}
+                           }
+                           .go5{
+                                width: 72px;
+                                height: 22px;
+                                line-height: 22px;
+                                margin-left: 50px;
+                                text-align: center;
+                                color:#ee5533;
+                                border:1px dashed #ee5533;
+                           }
+                           .go6{
+                                height: 22px;
+                                margin-left: 10px;
+                                border:1px solid #ccc;
+                                line-height: 22px;
+                                i{
+                                    width: 22px;
+                                    height: 22px;
+                                    display:block;
+                                    text-align: center;
+                                    &:hover{cursor:pointer;}
+                                }
+                                input{
+                                    width: 40px;
+                                    height: 20px;
+                                    line-height: 20;
+                                    text-align: center;
+                                    font-weight: bold;
+                                    display: block;
+                                    float: left;
+                                    border:1px solid #ccc;
+                                    border-top: none;
+                                    border-bottom: none;
+                                }
+                           }
+                           .go7{
+                                .x7{
+                                    margin-left: 28px;
+                                    color:#ee5533;
+                                    font-weight: bold;
+                                }
+                           }
+                           .go8{
+                                width: 50px;
+                                height: 30px;
+                                margin-left: 53px;
+                                span{
+                                      &:hover{cursor:pointer;}
+                                }
+                           }
+                       }
+
+                    }
+                }
+                .account{
+                    width: 992px;
+                    height: 77px;
+                    margin-top: 20px;
+                    background: #fff;
+                    .acl{
+                        width: 280px;
+                        height: 77px;
+                        padding-top: 20px;
+                        padding-left: 12px;
+                        .t0{&:hover{cursor:pointer;}}
+                        button{
+                            border:none;
+                            font-weight: bold;
+                            background: #fff;
+                            color:#333;
+                            margin-left: 28px;
+                            &:hover{cursor:pointer;corlor:#e53;}
+                        }
+                    }
+                    .acc{
+                        width: 580px;
+                        height: 77px;
+                        padding:17px 18px 0 200px;
+                        .s{
+                            height: 22px;
+                            line-height: 12px;
+                            font-size: 12px;
+                            color:#999999;
+                            .jianshu{color:#e53;}
+                            .total{
+                                color:#e53;
+                                font-weight: bold;
+                                font-size: 16px;
+                            }
+                        }
+                        .s1{
+                            color:#999999;
+                            font-size: 12px;
+                            margin-top: -2px;
+                            margin-left: 277px;
+                        }
+                        .s2{margin-left: 86px;margin-top: 5px;}
+
+                    }
+                    .acr{
+                        width: 130px;
+                        height: 77px;
+                        padding-top: 17px;
+                        padding-right: 12px;
+                        .dwjs{
+                            width: 106px;
+                            height: 37px;
+                            color:#fff;
+                            font-size: 24px;
+                            line-height: 36px;
+                            text-align: center;
+                            background: #EE5533;
+                            &:hover{cursor:pointer;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+footer{height: 303px;overflow-y: hidden;}

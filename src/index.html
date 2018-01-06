@@ -1,96 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>pet</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-</head>
-<body>
-    <div class="boqi">
-       <div class="header">
-           <div class="container">
-               <div class="header_l fl">
-                   <ul>
-                       <li><a href="http://www.boqii.com/">波奇网</a></li>
-                       <li><a href="http://shop.boqii.com/">波奇商城</a></li>
-                       <li><a href="http://vet.boqii.com/">波奇服务</a></li>
-                       <li><a href="http://bbs.boqii.com/">波奇论坛</a></li>
-                       <li><a href="http://www.boqii.com/baike/">宠物百科</a></li>
-                   </ul>
-               </div>
-               <div class="header_r fr">
-                   <ul>
-                       <li><a href="http://www.boqii.com/user/login"><span>手机版<i class="iphone"><img src="css/img/iphone.png"/></i></span></a></li>
-                       <li><a href=""><span>微信<i class="weixin"><img src="css/img/weixin.png"/></i></span></a></li>
-                       <li><a href=""><span>微博<i class="weibo"><img src="css/img/weibo.png"/></i></span></a></li>
-                       <li style="padding-left:10px;"><a href=""><span>注册</span></a></li>
-                       <li><a href=""><span>登陆</span></a></li>
-                   </ul>
-               </div>
-           </div>
-       </div>
-        <div class="search">
-            <div class="container"> <a class="fl" href="http://www.boqii.com/" ><img src="css/img/logo1.png"/></a>
-               <div class="search_z">
-                   <input class="in"type="text"value="  请输入关键字" />
-                   <input class="soushuo" type="button"value="搜索" />
-                   <p class="p1">热门搜索：宠物用品 狗粮 比熊 贵宾 金毛 哈士奇 贵宾犬 雪纳瑞 更多>></p>
-               </div>
-               <a class="xx" href="http://www.boqii.com/subject/mobile/"><img class="xx" src="css/img/logo2.jpg"/></a>
-                </div>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/base.css" />
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/font/iconfont.css" />
+        <link rel="stylesheet" href="lib/carousel/css/style.css">  
+    </head>
+    <body>
+    <header></header>
+    <main>
+        <div class="m1 clearfix">
+            <div class="m1_l">
+                <div class='menu'>
+                    <div class="mu1">
+                       <a href="html/list.html"><i class='iconfont icon-gouxiao'></i>&nbsp;狗狗商品<i class='arrow'>></i></a>
+                       <ul class='clearfix'>
+                           <li><a href="#">狗粮</a></li>
+                           <li><a href="#">狗罐头</a></li>
+                           <li><a href="#">狗零食</a></li>
+                           <li><a href="#">医疗</a></li>
+                           <li><a href="#">保健</a></li>
+                           <li><a href="#">沐浴露</a></li>
+                           <li><a href="#">日用品</a></li>
+                           <li><a href="#">玩具</a></li>
+                           <li><a href="#">衣服</a></li>
+                       </ul>
                     </div>
-       <div class="nav">
-           <div class="container">
-               <div class="na_l">
-                   <ul class="fl">
-                        <h2>全部商品分类</h2>
-                        <div class="nav_z">
-                          <div class="nav_1">
-                            <h1><a href="#">狗狗商品</a></h1>
-                              <ul>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                              </ul>
-                          </div>
-                          <div class="nav_2">
-                            <h1><a href="#">猫猫用品</a></h1>
-                          </div>
-                          <div class="nav_3">
-                            <h1><a href="#">奇趣小宠</a></h1>
-                          </div>
-                          <div class="nav_4">
-                            <h1><a href="#">水族市场</a></h1>
-                          </div>
-                          <div class="nav_5">
-                            <h1><a href="#">爬虫用品</a></h1>
-                          </div>
-                        </div><i><img src="css/img/logo3.png"/></i>
-                       <li><a href="#"><span>首页<i></i></span></a></li>
-                       <li><a href="#"><span>狗狗<i></i></span></a></li>
-                       <li><a href="#"><span>猫咪<i></i></span></a></li>
-                       <li><a href="#"><span>小宠<i></i></span></a></li>
-                       <li><a href="#"><span>水族<i></i></span></a></li>
-                       <li><a href="#"><span>全球购<i></i></span></a></li>
-                       <li><a href="#"><span>创意生活<i></i></span></a></li>
-                       <li><a href="#"><span>品牌馆<i></i></span></a></li>
-                       <li><a href="#"><span>波奇服务<i></i></span></a></li>
-                   </ul>
-                   <ul class="fr">
-                     <li><a href="#">购物车</a></li>
-                   </ul>
-               </div>
-           </div>
-       </div>
-       <div class="conta"></div>
-       <div class="footer"></div> 
-    </div>
-</body>
+                    <div class="mu1">
+                       <a href="html/list.html"><i class='iconfont icon-mao'></i>&nbsp;猫猫商品<i class='arrow'>&gt;</i></a>
+                       <ul class='clearfix'>
+                           <li><a href="#">猫粮</a></li>
+                           <li><a href="#">猫罐头</a></li>
+                           <li><a href="#">猫零食</a></li>
+                           <li><a href="#">医疗</a></li>
+                           <li><a href="#">保健</a></li>
+                           <li><a href="#">沐浴露</a></li>
+                           <li><a href="#">日用品</a></li>
+                           <li><a href="#">玩具</a></li>
+                           <li><a href="#">猫窝</a></li>
+                       </ul>
+                    </div>
+                    <div class="mu1 mm">
+                       <a href="html/list.html"><i class='iconfont icon-tz'></i>&nbsp;奇趣小宠<i class='arrow'>></i></a>
+                       <ul class='clearfix'>
+                           <li><a href="#">兔子</a></li>
+                           <li><a href="#">仓鼠</a></li>
+                           <li><a href="#">龙猫</a></li>
+                       </ul>
+                    </div>
+                    <div class="mu1">
+                       <a href="html/list.html"><i class='iconfont icon-yu'></i>&nbsp;水族市场<i class='arrow'>></i></a>
+                       <ul class='clearfix'>
+                           <li><a href="#"> 水族箱</a></li>
+                           <li><a href="#">饲料</a></li>
+                           <li><a href="#">药剂</a></li>
+                           <li><a href="#">氧气泵</a></li>
+                           <li><a href="#">过滤器</a></li>
+                           <li><a href="#">温控</a></li>
+                       </ul>
+                    </div>
+                     <div class="mu1 mm" style='border:none;'>
+                       <a href="html/list.html"><i class='iconfont icon-haiguibaohu'></i>&nbsp;爬虫用品<i class='arrow'>></i></a>
+                       <ul class='clearfix'>
+                           <li><a href="#">陆龟</a></li>
+                           <li><a href="#">水龟</a></li>
+                           <li><a href="#">蜥蜴</a></li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="m1_c">
+                <div  class="banner mct" id="banner1">
+                    <div class="banner-view"></div>
+                    <div class="banner-btn"></div>
+                    <div class="banner-number"></div>
+                    <div class="banner-progres"></div>
+                </div>
+                <div class="mcb clearfix">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="m1_r">
+                <div class="m1_rt"><a href="#"></a></div>
+                <div class="m1_rc">
+                    <p>波奇咨讯</p>
+                    <div class="zx_turn">
+                        <span class='z_prev'>&lt;</span>
+                        <span class='z_next'>&gt;</span>
+                    </div>
+                    <div class="zx_content">
+                        <ul>
+                            <li><a href="#">11.11波奇商城发货通知</a></li>
+                            <li><a href="#">新疆乌鲁木齐地区快递管制通知</a></li>
+                            <li><a href="#">全球购延迟收货赔付标准说明</a></li>
+                        </ul>
+                        <ul>
+                            <li>江浙沪皖京津粤满59元免运费</li>
+                        </ul>
+                    </div>
+                    <div class="mh_dy">
+                         <p>订阅促销信息</p>
+                    <input type="text" placeholder='请输入Email地址'/><button>订阅</button>
+                    </div>
+                </div>
+                <div class="m1_rb clearfix">
+                <i></i>
+                <div>
+                    <p>波奇客户端</p>
+                    <p>注册立享499,首单再送1000</p>
+                </div>
+              
+                </div>
+            </div>
+        </div>
+        <div class="m2">
+            <div class="w">
+              <div class="hot">
+                <h2>火爆商品<span class='hyp'>换一批</span></h2>
+                <div class="hcan clearfix"></div>
+              </div>
+              <div class="pinpai">
+                <h2>知心品牌</h2>
+                <div class="ppimg">
+                    <div class="pp pp1 fl">
+                      <a href='#' class='a1'><img src="img/pp1.jpg" height="270" width="190" alt="" /></a>
+                    </div>
+                    <div class="pp pp2 fl">
+                       <a href='#' class='a2'><img src="img/pp2.jpg" height="130" width="190" alt="" /></a>
+                       <a href='#' class='a2'><img src="img/pp3.jpg" height="130" width="190" alt="" /></a>
+                    </div>
+                    <div class="pp pp3 fl">
+                       <a href='#' class='a1'><img src="img/pp4.jpg" height="270" width="190" alt="" /></a>
+                    </div>
+                    <div class="pp pp4 fl">
+                       <a href='#' class='a2'><img src="img/pp5.jpg" height="130" width="190" alt="" /></a>
+                       <a href='#' class='a2'><img src="img/pp6.jpg" height="130" width="190" alt="" /></a>
+                    </div>
+                    <div class="pp pp5 fl">
+                      <a href='#' class='a1'><img src="img/pp7.jpg" height="270" width="190" alt="" /></a>
+                    </div>
+                    <div class="pp pp6 fl">
+                      <a href='#' class='a2'><img src="img/pp8.jpg" height="130" width="190" alt="" /></a>
+                       <a href='#' class='a2'><img src="img/pp9.jpg" height="130" width="190" alt="" /></a>
+                    </div>
+                </div>
+              </div>
+              <div class="ggsp ggsp1">
+                <h2><i class='iconfont icon-gouxiao'></i>&nbsp;&nbsp;狗狗商品</h2>
+                <ul>
+                    <li><a ><span>狗粮</span></a></li>
+                    <li><a ><span>湿粮</span></a></li>
+                    <li><a ><span>零食</span></a></li>
+                    <li><a ><span>保健品</span></a></li>
+                    <li><a ><span>医疗</span></a></li>
+                    <li><a ><span>沐浴露</span></a></li>
+                    <li><a ><span>日用品</span></a></li>
+                    <li><a ><span>美容</span></a></li>
+                    <li><a ><span>玩具</span></a></li>
+                    <li><a ><span>衣服窝</span></a></li>
+                </ul>
+              </div>
+              <div class="ggcan ggc1 clearfix">
+                <div class='ggcan1 fl'>
+                  <a href="html/list.html"><img src="img/fle.jpg" height="480" width="190" alt="" /></a>
+                </div>
+                <div class='ggcan2 fl'>
+                    <div class="cango">1</div>
+                    <div class="cango">2</div>
+                    <div class="cango">3</div>
+                    <div class="cango">4</div>
+                    <div class="cango">5</div>
+                    <div class="cango">6</div>
+                    <div class="cango">7</div>
+                    <div class="cango">8</div>
+                    <div class="cango">9</div>
+                    <div class="cango">10</div>
+                    <div class="dgo">
+                      <a href="html/list.html"><img src="img/dg1.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg2.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg3.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg4.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg5.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg6.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg7.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg8.jpg" height="36" width="80" alt="" /></a>
+                     
+                    </div>
+                </div>
+                <div class='ggcan3 fl'>
+                  <h3>波奇推荐</h3>
+                  <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj1.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj2.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj3.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj4.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj5.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj6.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ggsp ggsp2">
+                <h2><i class='iconfont icon-gouxiao'></i>&nbsp;&nbsp;猫咪商品</h2>
+                <ul>
+                    <li><a><span>猫粮</span></a></li>
+                    <li><a><span>湿粮</span></a></li>
+                    <li><a><span>零食</span></a></li>
+                    <li><a><span>保健品</span></a></li>
+                    <li><a><span>医疗</span></a></li>
+                    <li><a><span>沐浴露</span></a></li>
+                    <li><a><span>日用品</span></a></li>
+                    <li><a><span>美容</span></a></li>
+                    <li><a><span>玩具</span></a></li>
+                    <li><a><span>衣服窝</span></a></li>
+                </ul>
+              </div>
+              <div class="ggcan ggc2 clearfix">
+                <div class='ggcan1 fl'>
+                  <a href="html/list.html"><img src="img/wjml.jpg" height="480" width="190" alt="" /></a>
+                </div>
+                <div class='ggcan2 fl'>
+                    <div class="cango">0</div>
+                    <div class="cango">1</div>
+                    <div class="cango">2</div>
+                    <div class="cango">3</div>
+                    <div class="cango">4</div>
+                    <div class="cango">5</div>
+                    <div class="cango">6</div>
+                    <div class="cango">7</div>
+                    <div class="cango">8</div>
+                    <div class="cango"></div>
+                    <div class="dgo">
+                      <a href="html/list.html"><img src="img/dg1.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg2.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg3.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg4.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg5.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg6.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg7.jpg" height="36" width="80" alt="" /></a>
+                      <a href="html/list.html"><img src="img/dg8.jpg" height="36" width="80" alt="" /></a>
+                     
+                    </div>
+                </div>
+                <div class='ggcan3 fl'>
+                  <h3>波奇推荐</h3>
+                  <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj1.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj2.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj3.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj4.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj5.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                   <div class="tj clearfix">
+                    <div class=' tj1 fl'><img src="img/tj6.jpg" height="60" width="60" alt="" /></div>
+                    <div class='tj2 fl'>
+                      <p>伯纳天纯 小型成犬粮天然无谷低</p>
+                      <p><span>￥79.0</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rmpl"><img src="img/rmpl.png" height="296" width="1190" alt="" /></div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/require.js" data-main='js/index'></script>   
+    </body>
 </html>

@@ -1,0 +1,473 @@
+    .ht1{
+        height: 33px;
+        border-bottom:1px solid #ccc;
+        line-height: 32px;
+        font-size: 14px;
+        position:relative;
+        font-family: "Microsoft YaWei";
+        span{
+            display: inline-block;
+            &:hover{cursor:pointer;}
+            i{color: #EE5533;}
+        }
+        ul{
+            float: right;
+            li{
+                float: left;
+                span{
+                    display: inline;
+                    padding:0 10px;
+                    // height: 14px;
+                    border-right:1px solid #ccc;  
+                    i{font-size: 14px;}
+                    a:hover{border-bottom: 1px solid #EE5533;}
+                }
+                .zqsj:hover{color:#EE5533;}
+                }   
+        }
+        .sjb{
+            display: none;
+             width: 250px;
+             height: 138px;
+             position:absolute;
+             border:1px solid #ccc;
+             border-top:none;
+             background:#fff;
+             top: 33px;
+             left:769px;
+             padding-top: 12px;
+             padding-left: 12px;
+             .sma{  
+                 display:block;
+                 float: left;
+                 width: 100px;
+                 height: 100px;
+                 background: url(../img/ivan.fw.png) no-repeat -485px -73px;
+             }
+             .sjh{
+                width: 120px;
+                float: left;
+                margin-left: 10px;
+                p{
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 10px;
+                }
+                p:not(.mh_pet){color:#FF6655;}
+                a{
+                    width: 90px;
+                    height: 27px;
+                    display: block;
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 26px;
+                    font-size: 12px;
+                    border:1px solid #ccc;
+                    border-radius:3px;
+                    margin-bottom: 5px;
+                    &:hover{background: #ccc;}
+                }
+            }
+        }
+        .bqb{
+            display: none;
+            width: 203px;
+            height: 150px;
+            border:1px solid #ccc;
+            border-top:none;
+            position:absolute;
+            background: #fff;
+            top: 33px;
+            left:892px;
+            i{
+                width: 80px;
+                height: 80px;
+                display: block;
+                background:url(../img/ivan.fw.png) no-repeat -270px -206px;
+            }
+            p{height: 21px;line-height: 32px;}
+            .huang{color:#EE5533;}
+            .bqb_l{
+                width: 101px;
+                height: 150px;
+                border-right:1px dotted #ccc;
+            }
+            .bq{
+                padding-left: 12px;
+                padding-top: 12px;
+            }
+            .bqb_r{
+                span{color:#26C9FF;font-weight: bold;}
+            }
+
+        }
+        .syb{
+            display: none;
+            width:97px;
+            height: 87px;
+            border:1px solid #ccc;
+            border-top:none;
+            position:absolute;
+            background: #fff;
+            top: 33px;
+            left:1094px;
+            ul{
+                li{
+                    width: 97px;
+                    height: 28px;
+                    border-bottom:1px dotted #ccc;
+                    i{
+                        color:#EE5533;
+                        margin-right: 5px;
+                        margin-left: 11px;
+                    }
+                }
+            }
+        }
+        }
+
+
+// 购物车样式
+
+    .cart-list .btn-close{
+        position:absolute;
+        top:61px;right:159px;
+        width: 18px;
+        height: 18px;
+        display: block;
+        line-height: 18px;
+        text-align: center;
+        border-radius:50%;
+    }
+    .cart-list .btn-close:hover{background-color:#fff;color:#000;}
+
+// 头部公共样式开始
+#mh_header {
+    .gd{
+        width: 36px;
+        height: 670px;
+        background: #111318;
+        position: fixed;
+        z-index:1000;
+        top: 0;
+        right:0;
+        .gdul{
+            padding-top: 93px;
+            position:relative;
+
+         // 购物车盒子样式
+        .cart-list{
+            background: #FEF2EE;
+            width: 300px;
+            border-radius:12px;
+            border:4px solid #333;
+            position:absolute;
+            left: -299px;
+            top: 123px;
+            p{text-align: left;}
+            .chuship{
+                padding-left: 10px;
+                line-height: 40px;
+                font-size: 14px;
+                margin-bottom: 2px;
+                  border-radius:12px;
+            }
+            .carul{
+                max-height:188px;
+                padding-bottom: 5px;
+                overflow-x: hidden;
+                li{
+                    // width: 300px;
+                    height: 94px;
+                    background: #fff;
+                    border-radius:12px;
+                    border:1px solid #333 !important;
+                    margin-top: 2px;
+                    border-bottom:1px dotted #ccc;
+                    .ktl{
+                        width: 94px;
+                        height: 70px;
+                        padding:2px;
+                        float: left;
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                    .ktr{
+                        width: 150px;
+                        height: 70px;
+                        float: left;
+                        position:relative;
+                        line-height: 20px;
+                        font-size: 12px;
+                    }
+                    &:hover{
+                        background: orange;
+                        color:#fff;
+                    }
+                }
+            }
+            
+        }
+            .touxiang{
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    background:url(../img/ivan.fw.png) no-repeat -242px 1px;
+                }
+            li{ 
+                color:#9E9E9E;
+                text-align: center;
+                border-top: 1px solid #3E3E3E;
+                border-bottom: 1px solid #3E3E3E;
+                padding:9px 2px;
+                i{color:#CF2D0D;font-size: 21px;}
+                &:hover{
+                    cursor:pointer;
+                    background: #EE5533;
+                    color:#fff;
+                    i{color:#fff;}
+                }
+
+            }
+        }
+    }
+
+    }
+    .hc{
+        height:129px;
+        h1{
+            text-indent: -1000px;
+            margin-right: 56px;
+            background: url(../img/ivan.fw.png) no-repeat;
+            float: left;
+            a{
+                width:240px;
+                height:100px;
+                display: block;
+            }
+            &:hover{cursor:pointer;}
+        }
+        .hcc{   
+                width: 599px;
+                padding-top: 49px;
+                input{
+                  width: 514px;
+                  height: 36px;
+                  font-weight: bold;
+                  font-size: 14px;
+                  line-height: 36px;
+                  padding-left: 5px;
+                  border:3px solid #EE5533;
+                  display:block;
+                  float: left;
+                  text-indent:1em;
+                  border-radius:20px 0 0 20px;
+                }
+                button{
+                    width: 80px;
+                    height: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    color:#fff;
+                   font: 18px "Microsoft YaHei";
+                    background: #EE5533;
+                    display:block;
+                    border-radius:0 20px 20px 0;
+                    float: left;
+                    &:hover{cursor:pointer;}
+                }
+                ul{
+                    margin-top: 8px;
+                    margin-left: 18px;
+                    li{
+                        float: left;
+                        color:#999999;
+                        margin-right: 13px;
+                        a{
+                            color:#A8A8B7;
+                            &:hover{color:#EE5533;}
+                        }
+                    }
+                }
+        }
+     
+    }
+    .nav{
+        padding: 0 36px;
+        height: 36px;
+        background: #EE5533;
+        line-height: 36px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+
+        h2{
+            float: left;
+            width: 196px;
+            height: 36px;
+            padding-left: 10px;
+            background: #CC2200;
+            color:#fff;
+            &:hover{cursor:pointer;}
+            i{
+                display: block;
+                float: right;
+                margin-right: 6px;
+            }
+        }
+        ul{
+            li{
+                float: left;
+                padding:0 17px;
+                text-align: center;
+                color:#fff;
+                font-family: "Microsoft YaHei";
+                color:#fff;
+                &:hover{cursor:pointer;background: #CC2200;}
+                a{color:#fff;}
+            }
+        }
+        .car{
+            text-align: center;
+            margin-right: 20px;
+            a{
+                width: 142px;
+                height: 36px;
+                color:#fff;
+                background: #CC2200;
+                display: inline-block;
+            }
+        
+        }
+
+    }
+// 头部公共样式结束
+
+// 尾部样式开始
+.footer{
+    width: 100%;
+    height: 424px;
+    .f1{
+        height: 120px;
+        background: #EE5533;
+        ul{
+            margin:0 140px;
+            li{ 
+                color:#fff;
+                float: left;
+                width: 196px;
+                text-align: center;
+                h4{font-size: 16px;font-weight:bold;margin-bottom: 5px;}
+                p{font-size: 10px;font-weight: bold;}
+                i{
+                    display: block;
+                    width: 57px;
+                    height: 48px;
+                    margin:5px 75px 10px 75px;
+                }
+            }
+            li:nth-child(1){
+                i{
+                    background: url(../img/ivan.fw.png) no-repeat -1px -103px;
+                }
+            }
+             li:nth-child(2){
+                i{
+                    background: url(../img/ivan.fw.png) no-repeat -60px -103px;
+                }
+             }
+               li:nth-child(3){
+                i{
+                    background: url(../img/ivan.fw.png) no-repeat -126px -103px;
+                }
+             }
+               li:nth-child(4){
+                i{
+                    background: url(../img/ivan.fw.png) no-repeat -190px -103px;
+                }
+             }
+               li:nth-child(5){
+                i{
+                    background: url(../img/ivan.fw.png) no-repeat -1px -154px;
+                }
+             }
+        }
+    }
+    .f2{
+        height: 152px;
+        background: #F3F3F3;
+        ul{
+            margin-left: 214px;
+            li{
+                float: left;
+                dl{
+                    width: 100px;
+                    margin-right: 98px;
+                    dt{
+                        font-size: 14px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-weight: bold;
+                        dd{
+                            margin-bottom: 6px;
+                            color:#666666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .f3{
+        height: 152px;
+        padding-left: 315px;
+        padding-top: 28px;
+         a{
+            padding:0 10px;
+            font-size: 12px;
+            border-right: 2px solid #ccc;
+                }
+        .u1{
+            li{
+                float: left;
+            }
+        }
+        .u2{
+            margin-left: 10px;
+            li{
+                float: left;
+                a{
+                     padding:0 10px;
+                }
+            }
+        }
+        p{
+            margin-left: 47px;
+        }
+         .u3{
+            margin-left: 88px;
+            margin-top: 10px;
+            li{
+                  float: left;
+                  width: 100px;
+                  height: 35px;
+                  margin-right: 12px;
+              }
+              li:nth-child(1){
+                  background: url(../img/ivan.fw.png) no-repeat -60px -153px;
+            }
+            li:nth-child(2){
+                  background: url(../img/ivan.fw.png) no-repeat -161px -154px;
+            }
+            li:nth-child(3){
+                  background: url(../img/ivan.fw.png) no-repeat -60px -190px;
+            }
+            li:nth-child(4){
+                  background: url(../img/ivan.fw.png) no-repeat -161px -191px;
+            }
+        }
+    }
+   
+
+}
+// 尾部样式结束

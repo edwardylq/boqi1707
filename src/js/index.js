@@ -28,7 +28,7 @@ require(['config'],function(){
                container : "#banner1",
 
                //图片集合 必选
-               imgs : ['img/b1.jpg','img/b2.jpg','img/b3.jpg','img/b4.jpg',         'img/b5.jpg','img/b6.jpg'],
+               imgs : ['img/ll1.jpg','img/ll5.jpg','img/ll5.jpg','img/ll5.jpg',         'img/b5.jpg','img/b6.jpg'],
 
                //容器的大小 可选
                size : { width : 800, height : 360},

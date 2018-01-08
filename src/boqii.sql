@@ -186,6 +186,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('老谢', '202cb962ac59075b964b07152d234b70', '13888888888', null);
-INSERT INTO `user` VALUES ('老王', '202cb962ac59075b964b07152d234b70', '13888888885', null);
-SET FOREIGN_KEY_CHECKS=1;
+
